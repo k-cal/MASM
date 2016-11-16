@@ -17,8 +17,6 @@ MY_NAME         EQU     <"Albert Chang">
 NUMBER_INTS     =       10
 ; NUMBER_INTS is defined here for easy changing later on.
 
-; I feel kind of weird having macros above the .data segment, but it's how Paul does it.
-; I trust Paul to know the best coding style.
 ;~~~~~~~~~~~~~~~~~~
 ; getString (macro)
 ;This macro wraps up Irvine's ReadString procedure
