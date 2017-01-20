@@ -358,11 +358,8 @@ mergeSort ENDP           ;  dummy array to mergeSort.
 
 ;~~~~~~~~~~~~~~~~~~
 ; valueCompare
-;This procedure is the "heart of the merge sort" as I have mentioned below in my old Python code.
-; Unlike my Python code though, it takes indices as parameters because this version isn't going to
-; keep creating new arrays recursively (I'm thinking avoiding use of the heap is preferable). The
-; parameters indices are given labels for use within the procedure this time. I have a feeling things
-; will get confusing otherwise in a recursive procedure.
+;This procedure is the "heart of the merge sort". The parameters indices are given labels for use
+; within the procedure this time. I have a feeling things will get confusing otherwise in a recursive procedure.
 ;receives: Takes four stack parameters in the following order:
 ;          address of array to store integers (reference)
 ;          the "left" side index of the array (value)
